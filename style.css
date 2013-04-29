@@ -81,6 +81,7 @@ h2 {
   padding-top: 470px;
   z-index: 100;
   position: relative;
+  cursor: default;
 }
 
 h3 {
@@ -102,6 +103,14 @@ p {
   max-width: 600px;
 }
 
+#download-button {
+  background: #2ecc71;
+}
+
+#download-button:hover {
+  background: #f1c40f;
+}
+
 /* Video */
 
 #frame {
@@ -115,7 +124,7 @@ p {
   left: 50%;
   margin-left: -434px;
   margin-bottom: -60px;
-  top: 244px;
+  top: 334px;
 }
 
 video, #fallback {
@@ -126,7 +135,7 @@ video, #fallback {
 
 video {
   position: absolute;
-  top: 333px;
+  top: 423px;
   left: 50%;
   margin-left: -343px;
   background: #FFF;
@@ -241,7 +250,7 @@ a:link, a {
 }
 
 a:hover {
-  color: #f39c12;
+  color: #f1c40f;
 }
 
 a:active {

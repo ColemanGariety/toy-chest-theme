@@ -5,10 +5,13 @@ $(function(){
     }, 500);
   });
 
-  $("h2").click(function(){
+  $("h2, #download-button").click(function(){
     $("html, body").add(window).animate({
       scrollTop: $("html, body").get(0).scrollHeight
-    }, 500);
+    }, {
+      duration: 500,
+      specialEasing: "easein"
+    });
   });
 
   if (!document.createElement('video').canPlayType) {
