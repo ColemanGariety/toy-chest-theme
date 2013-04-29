@@ -31,6 +31,8 @@ body {
 
 #title {
   color: #34495E;
+  height: 180px;
+  display: inline-block;
 }
 
 #title:hover {
@@ -90,7 +92,7 @@ h3 {
   font-size: .7em;
   margin-bottom: 15px;
   color: #95a5a6;
-  margin-top: -25px;
+  margin-top: -65px;
   margin-left: 380px;
   margin-bottom: 40px;
 }
@@ -119,6 +121,7 @@ p {
 video, #fallback {
   height: 344px;
   width: 720px;
+  z-index: 10;
 }
 
 video {
@@ -256,7 +259,7 @@ a:active {
 }
 
 #github img:hover {
-  opacity: .8;
+  opacity: .9;
 }
 
 #github img:active {
