@@ -37,8 +37,34 @@ body {
   color: #506b89;
 }
 
+#title:hover #chest {
+  background-image: url(images/chest_hover.png);
+}
+
 #title:active {
   color: #34495E;
+}
+
+#title:active #chest {
+  background-image: url(images/chest.png);
+}
+
+#title:active + #byline {
+  top: 2px;
+  position: relative;
+}
+
+#chest {
+  display: inline-block;
+  position: relative;
+  top: 45px;
+  margin-top: -15px;
+  height: 125px;
+  width: 131px;
+  background-image: url(images/chest.png);
+  -moz-background-size: 131px 125px;
+    -o-background-size: 131px 125px;
+       background-size: 131px 125px;
 }
 
 h1 {
@@ -51,6 +77,8 @@ h1 {
 
 h2 {
   padding-top: 470px;
+  z-index: 100;
+  position: relative;
 }
 
 h3 {
@@ -63,8 +91,8 @@ h3 {
   margin-bottom: 15px;
   color: #95a5a6;
   margin-top: -25px;
-  margin-left: 250px;
-  margin-bottom: 15px;
+  margin-left: 380px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -85,7 +113,7 @@ p {
   left: 50%;
   margin-left: -434px;
   margin-bottom: -60px;
-  top: 204px;
+  top: 244px;
 }
 
 video, #fallback {
@@ -95,7 +123,7 @@ video, #fallback {
 
 video {
   position: absolute;
-  top: 293px;
+  top: 333px;
   left: 50%;
   margin-left: -343px;
   background: #FFF;
@@ -218,6 +246,28 @@ a:active {
   top: 2px;
 }
 
+/* GitHub Ribbon */
+
+#github img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000000;
+}
+
+#github img:hover {
+  opacity: .8;
+}
+
+#github img:active {
+  opacity: 1;
+}
+
+#github:active {
+  position: static;
+  top: auto;
+}
+
 /* Overlay */
 
 #overlay {
@@ -278,4 +328,7 @@ button:active {
   #frame { background-image: url(images/frame@2x.png); }
   #sss { background-image: url(images/sss@2x.png); }
   #download .arrow { background-image: url(images/arrow@2x.png); }
+  #chest { background-image: url(images/chest@2x.png); }
+  #title:hover #chest { background-image: url(images/chest_hover@2x.png); }
+  #title:active #chest { background-image: url(images/chest@2x.png); }
 }
