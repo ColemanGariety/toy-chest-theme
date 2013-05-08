@@ -78,7 +78,7 @@ h1 {
 }
 
 h2 {
-  padding-top: 470px;
+  padding-top: 500px;
   z-index: 100;
   position: relative;
   cursor: default;
@@ -123,7 +123,7 @@ p {
   left: 50%;
   margin-left: -434px;
   margin-bottom: -60px;
-  top: 334px;
+  top: 346px;
 }
 
 video, #fallback {
@@ -134,7 +134,7 @@ video, #fallback {
 
 video {
   position: absolute;
-  top: 423px;
+  top: 435px;
   left: 50%;
   margin-left: -343px;
   background: #FFF;
@@ -186,7 +186,7 @@ video {
 
 #download .button {
   -webkit-transform: translateZ(0);
-  width: 200px;
+  width: 160px;
   height: 20px;
   margin: 15px;
   margin-top: 0;
@@ -220,7 +220,7 @@ video {
   background-repeat: no-repeat;
   position: absolute;
   margin-top: -175px;
-  margin-left: 78px;
+  margin-left: 58px;
   opacity: 0;
   -webkit-transition: margin-top 250ms, opacity 250ms;
      -moz-transition: margin-top 250ms, opacity 250ms;
@@ -233,13 +233,11 @@ video {
   margin-top: -140px;
 }
 
-#sss {
-  background-image: url(images/sss.png);
-}
-
-#tmtheme {
-  background-image: url(images/tmtheme.png);
-}
+#sss { background-image: url(images/sss.png); }
+#tmtheme { background-image: url(images/tmtheme.png); }
+#vim { background-image: url(images/vim.png); }
+#itermcolors { background-image: url(images/itermcolors.png); }
+#terminal { background-image: url(images/terminal.png); }
 
 /* Anchors */
 
@@ -342,4 +340,7 @@ button:active {
   #chest { background-image: url(images/chest@2x.png); }
   #title:hover #chest { background-image: url(images/chest_hover@2x.png); }
   #title:active #chest { background-image: url(images/chest@2x.png); }
+  #vim { background-image: url(images/vim@2x.png); }
+  #iterm { background-image: url(images/itermcolors@2x.png); }
+  #terminal { background-image: url(images/terminal@2x.png); }
 }
