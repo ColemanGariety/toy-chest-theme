@@ -1,7 +1,7 @@
 editor
 foreground: 23c26a
 background: 283c4d
-caret: 23c26a
+caret: DDDDDD
 
 editor-selection
 foreground: e7eced
@@ -36,7 +36,7 @@ foreground: f39c12
 font-style: italic
 
 STRONG
-foreground: 46a6eb
+foreground: e74c3a
 font-style: bold
 
 HRULE
@@ -49,22 +49,22 @@ LIST_ENUMERATOR
 foreground: 95a5a6
 
 LINK
-foreground: 8840a7
+foreground: 46a6eb
 
 AUTO_LINK_URL
-foreground: 8840a7
+foreground: 46a6eb
 
 AUTO_LINK_EMAIL
-foreground: 8840a7
+foreground: 46a6eb
 
 REFERENCE
 foreground: 618890
 
 IMAGE
-foreground: 8840a7
+foreground: 46a6eb
 
 CODE
-foreground: e74c3a
+foreground: 8840a7
 
 VERBATIM
 foreground: 8840a7
