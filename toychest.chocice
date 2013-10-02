@@ -1,0 +1,171 @@
+(author [Jackson Gariety])
+
+(!default
+    (caret [rgba(0.866667, 0.866667, 0.866667, 1.000000)])
+    (selection [rgba(0.454902, 0.207843, 0.552941, 1.000000)])
+    (line-highlight [rgba(0.101961, 0.149020, 0.192157, 1.000000)])
+    (invisibles [rgba(0.227451, 0.321569, 0.419608, 1.000000)])
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)])
+    (background [rgba(0.156863, 0.235294, 0.301961, 1.000000)]))
+
+(apply comment
+    Comment
+    (italic)
+    (color [rgba(0.250980, 0.423529, 0.607843, 1.000000)]))
+
+(apply [keyword, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, meta.tag.sgml.html, keyword.operator.logical.php]
+    Keyword
+    (color [rgba(0.905882, 0.360784, 0.239216, 1.000000)]))
+
+(apply entity.other.attribute-name
+    Keyword
+    (color [rgba(0.905882, 0.360784, 0.239216, 1.000000)]))
+
+(apply string.quoted.double.block.python
+    [Python Docstring]
+    (italic)
+    (color [rgba(0.250980, 0.423529, 0.607843, 1.000000)]))
+
+(apply constant
+    Constant
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply entity.name.function
+    Functions
+    (color [rgba(0.894118, 0.737255, 0.219608, 1.000000)]))
+
+(apply storage
+    Storage
+    (color [rgba(0.905882, 0.360784, 0.239216, 1.000000)]))
+
+(apply string
+    String
+    (italic)
+    (color [rgba(0.086275, 0.627451, 0.521569, 1.000000)]))
+
+(apply support
+    Support
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply variable
+    Variable
+    (color [rgba(0.701961, 0.364706, 0.862745, 1.000000)]))
+
+(apply [string constant]
+    [♦ String constant]
+    (italic)
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply string.regexp
+    [♦ String.regexp]
+    (color [rgba(0.701961, 0.364706, 0.862745, 1.000000)]))
+
+(apply [string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition]
+    [♦ String.regexp.«special»]
+    (color [rgba(0.701961, 0.364706, 0.862745, 1.000000)]))
+
+(apply [string variable]
+    [♦ String variable]
+    (color [rgba(0.701961, 0.364706, 0.862745, 1.000000)]))
+
+(apply support.function
+    [♦ Support.function]
+    (color [rgba(0.894118, 0.737255, 0.219608, 1.000000)]))
+
+(apply support.constant
+    [♦ Support.constant]
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply meta.preprocessor.c
+    [c C/C++ Preprocessor Line]
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply [meta.preprocessor.c keyword]
+    [c C/C++ Preprocessor Directive]
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply [meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string]
+    [✘ Doctype/XML Processing]
+    (color [rgba(0.905882, 0.360784, 0.239216, 1.000000)]))
+
+(apply [declaration.tag, declaration.tag entity, meta.tag, meta.tag entity]
+    [✘ Meta.tag.«all»]
+    (color [rgba(0.890196, 0.623529, 0.196078, 1.000000)]))
+
+(apply [meta.diff, meta.diff.header, meta.separator]
+    [⎇ diff.header]
+    (italic)
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)])
+    (background [rgba(0.054902, 0.133333, 0.192157, 1.000000)]))
+
+(apply markup.deleted
+    [⎇ diff.deleted]
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)])
+    (background [rgba(0.258824, 0.054902, 0.035294, 1.000000)]))
+
+(apply markup.changed
+    [⎇ diff.changed]
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)])
+    (background [rgba(0.290196, 0.254902, 0.050980, 1.000000)]))
+
+(apply markup.inserted
+    [⎇ diff.inserted]
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)])
+    (background [rgba(0.145098, 0.231373, 0.133333, 1.000000)]))
+
+(apply keyword.control.at-rule.sass
+    [SASS @import]
+    (color [rgba(0.901961, 0.439216, 0.333333, 1.000000)]))
+
+(apply variable.parameter
+    [SASS $variable]
+    (color [rgba(0.701961, 0.364706, 0.862745, 1.000000)]))
+
+(apply [keyword.control.untitled, entity.other.attribute-name.class.sass, entity.other.attribute-name.id.sass, entity.other.attribute-name.tag.pseudo-class]
+    [SASS Attributes]
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply support.type.property-name.sass
+    [SASS Properties]
+    (color [rgba(0.301961, 0.800000, 0.737255, 1.000000)]))
+
+(apply support.constant.property-value.sass
+    [SASS Values]
+    (color [rgba(0.905882, 0.360784, 0.239216, 1.000000)]))
+
+(apply [support.function.misc, punctuation.section.function.css, string.quoted.single.css, string.quoted.double.css, string.quoted.single.html, string.quoted.double.html]
+    [HTML and CSS Strings]
+    (color [rgba(0.894118, 0.737255, 0.219608, 1.000000)]))
+
+(apply [entity.name.tag.css, support.type.property-name.css, meta.property-name.css]
+    [CSS Properties]
+    (color [rgba(0.301961, 0.800000, 0.737255, 1.000000)]))
+
+(apply [meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-value.css]
+    [CSS Values]
+    (color [rgba(0.905882, 0.360784, 0.239216, 1.000000)]))
+
+(apply [meta.property-value support.constant.named-color.css, meta.property-value constant, keyword.other.unit.css]
+    [CSS Constants]
+    (color [rgba(0.615686, 0.470588, 0.890196, 1.000000)]))
+
+(apply constant
+    [Ruby Blue Constants]
+    (color [rgba(0.243137, 0.709804, 0.882353, 1.000000)]))
+
+(apply keyword.operator
+    Operators
+    (color [rgba(0.086275, 0.627451, 0.521569, 1.000000)]))
+
+(apply [meta.selector.css, entity.name.tag.css, meta.selector.css, entity.other.attribute-name.class, meta.selector.css, entity.other.attribute-name.id, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, source.css, meta.selector.css, entity.other.attribute-name.pseudo-class.css, punctuation.separator.key-value, punctuation.terminator.rule.css]
+    [CSS Selectors]
+    (color [rgba(0.137255, 0.760784, 0.415686, 1.000000)]))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
