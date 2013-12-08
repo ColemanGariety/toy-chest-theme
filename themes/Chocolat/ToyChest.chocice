@@ -3,7 +3,7 @@
 (!default
     (caret [rgba(0.927064, 0.727594, 0.064025, 1.000000)])
     (selection [rgba(0.454902, 0.207843, 0.552941, 1.000000)])
-    (line-highlight [rgba(0.017567, 0.182628, 0.264969, 1.000000)])
+    (line-highlight [rgba(0.130796, 0.184076, 0.245943, 1.000000)])
     (invisibles [rgba(0.227451, 0.321569, 0.419608, 1.000000)])
     (color [rgba(0.173586, 0.773851, 0.368228, 1.000000)])
     (background [rgba(0.156863, 0.235294, 0.301961, 1.000000)]))
@@ -102,7 +102,7 @@
 
 (apply [declaration.tag, declaration.tag entity, meta.tag, meta.tag entity]
     [✘ Meta.tag.«all»]
-    (color [rgba(1.000000, 0.843137, 0.043137, 1.000000)]))
+    (color [rgba(1.000000, 0.843137, 0.392157, 1.000000)]))
 
 (apply [meta.diff, meta.diff.header, meta.separator]
     [⎇ diff.header]
@@ -184,6 +184,24 @@
 
 (apply bold
     [Default Zone]
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
+
+(apply bold
     (bold))
 
 (apply italic
