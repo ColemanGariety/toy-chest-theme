@@ -1,7 +1,9 @@
 Toy-Chest-Theme
 ===============
 
-**Toy Chest** is a color scheme that makes coding look as fun as it really is.
+A color scheme that makes coding look as fun as it really is.
+
+![Toy Chest Example](https://raw.github.com/JacksonGariety/Toy-Chest-Theme/master/example.jpg)
 
 ### Text Editors
 
