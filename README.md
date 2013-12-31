@@ -1,20 +1,28 @@
 Toy-Chest-Theme
 ===============
 
-**Toy Chest** is a "Flat UI"-inspired color scheme for programmers who like to play.
+A color scheme that makes coding look as fun as it really is.
 
-Currently supports the following software:
+![Toy Chest Example](https://raw.github.com/JacksonGariety/Toy-Chest-Theme/master/example.jpg)
 
-### Editors & IDEs
+### Text Editors
 
 * **Vim**
-* **Coda**
-* **BBEdit**
 * **TextMate**
-* **Sublime Text**
+* **TextMate 2**
+* **Sublime Text 1, 2 & 3** (through TextMate)
+* **BBEdit**
 * **TextWrangler**
+
+### IDEs
+
+* **Coda 2**
 
 ### Terminal Emulators
 
 * **Terminal.app**
 * **iTerm2**
+
+### Markdown Editors
+
+* **Mou**
