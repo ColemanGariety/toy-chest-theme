@@ -1,38 +1,38 @@
 editor
-foreground: 23c26a
+foreground: ebc807
 background: 283c4d
 caret: DDDDDD
 
 editor-selection
 foreground: e7eced
-background: 7a2b9d
+background: 46a6eb
 
 H1
-foreground: 2cc55e
+foreground: e74c3a
 font-style: bold
 
 H2
-foreground: 2cc55e
+foreground: e74c3a
 font-style: bold
 
 H3
-foreground: 2cc55e
+foreground: 964ab6
 font-style: bold
 
 H4
-foreground: 2cc55e
+foreground: 964ab6
 font-style: bold
 
 H5
-foreground: 2cc55e
+foreground: 964ab6
 font-style: bold
 
 H6
-foreground: 2cc55e
+foreground: 964ab6
 font-style: bold
 
 EMPH
-foreground: f39c12
+foreground: 23c26a
 font-style: italic
 
 STRONG
@@ -64,16 +64,16 @@ IMAGE
 foreground: 46a6eb
 
 CODE
-foreground: 8840a7
+foreground: 23c26a
 
 VERBATIM
-foreground: 8840a7
+foreground: 46a6eb
 
 HTML_ENTITY
 foreground: 23c26a
 
 COMMENT
-foreground: 23c26a
+foreground: 46a6eb
 
 BLOCKQUOTE
 foreground: 95a5a6
