@@ -8,9 +8,10 @@ A color scheme that makes coding look as fun as it really is.
 ### Text Editors
 
 * **Vim**
+* **Emacs**
 * **TextMate**
 * **TextMate 2**
-* **Sublime Text 1, 2 & 3** (through TextMate)
+* **Sublime Text 1, 2 & 3**
 * **BBEdit**
 * **TextWrangler**
 
