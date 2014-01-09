@@ -44,7 +44,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, meta.tag.sgml.html, keyword.operator.logical.php</string>
+			<string>keyword, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, meta.tag.sgml.html, keyword.operator.logical.php, keyword.operator.logical.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
