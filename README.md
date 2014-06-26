@@ -9,6 +9,7 @@ A color scheme that makes coding look as fun as it really is.
 
 * **Vim**
 * **Emacs**
+* **Atom**
 * **TextMate**
 * **TextMate 2**
 * **Sublime Text 1, 2 & 3**
