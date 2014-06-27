@@ -1,4 +1,4 @@
-Toy-Chest-Theme
+Toy Chest Theme
 ===============
 
 A color scheme that makes coding look as fun as it really is.
