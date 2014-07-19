@@ -126,7 +126,7 @@ p {
 /* Video */
 
 #frame {
-  background-image: url(images/frame.png);
+  background-image: url(images/frame@2x.png);
   -moz-background-size: 868px 536px;
     -o-background-size: 868px 536px;
        background-size: 868px 536px;
