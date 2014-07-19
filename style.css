@@ -53,7 +53,7 @@ body {
 }
 
 #title:hover #chest {
-  background-image: url(images/chest_hover.png);
+  background-image: url(images/chest_hover@2x.png);
 }
 
 #title:active {
@@ -61,7 +61,7 @@ body {
 }
 
 #title:active #chest {
-  background-image: url(images/chest.png);
+  background-image: url(images/chest@2x.png);
 }
 
 #title:active + #byline {
@@ -76,7 +76,7 @@ body {
   margin-top: -15px;
   height: 125px;
   width: 131px;
-  background-image: url(images/chest.png);
+  background-image: url(images/chest@2x.png);
   -moz-background-size: 131px 125px;
     -o-background-size: 131px 125px;
        background-size: 131px 125px;
@@ -226,7 +226,7 @@ video {
   width: 150px;
   -webkit-transform: translateZ(0);
   height: 150px;
-  background-image: url("images/arrow.png");
+  background-image: url("images/arrow@2x.png");
   -moz-background-size: 75px;
     -o-background-size: 75px;
        background-size: 75px;
