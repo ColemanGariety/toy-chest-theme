@@ -253,9 +253,11 @@ video {
 #title:hover #chest { background-image: url(images/chest_hover@2x.png); }
 #title:active #chest { background-image: url(images/chest@2x.png); }
 #vim { background-image: url(images/vim@2x.png); }
-#iterm { background-image: url(images/itermcolors.png); }
-#terminal { background-image: url(images/terminal.png); }
-#emacs { background-image: url(images/emacs@2x.png) }
+#itermcolors { background-image: url(images/itermcolors.png); }
+#terminal { background-image: url(images/terminal@2x.png); }
+#emacs { background-image: url(images/emacs@2x.png); }
+#tmbundle { background-image: url(images/tmbundle.png); }
+#tmtheme { background-image: url(images/tmtheme.png); }
 
 /* Anchors */
 
