@@ -246,13 +246,13 @@ video {
   margin-top: -140px;
 }
 
-#sss { background-image: url(images/sss.png); }
-#tmtheme { background-image: url(images/tmtheme.png); }
-#vim { background-image: url(images/vim.png); }
-#itermcolors { background-image: url(images/itermcolors.png); }
-#terminal { background-image: url(images/terminal.png); }
-#tmbundle { background-image: url(images/tmbundle.png); }
-#emacs { background-image: url(images/emacs.png); }
+#sss { background-image: url(images/sss@2x.png); }
+#tmtheme { background-image: url(images/tmtheme@2x.png); }
+#vim { background-image: url(images/vim@2x.png); }
+#itermcolors { background-image: url(images/itermcolors@2x.png); }
+#terminal { background-image: url(images/terminal@2x.png); }
+#tmbundle { background-image: url(images/tmbundle@2x.png); }
+#emacs { background-image: url(images/emacs@2x.png); }
 
 /* Anchors */
 
