@@ -246,13 +246,16 @@ video {
   margin-top: -140px;
 }
 
+#frame { background-image: url(images/frame@2x.png); }
 #sss { background-image: url(images/sss@2x.png); }
-#tmtheme { background-image: url(images/tmtheme@2x.png); }
+#download .arrow { background-image: url(images/arrow@2x.png); }
+#chest { background-image: url(images/chest@2x.png); }
+#title:hover #chest { background-image: url(images/chest_hover@2x.png); }
+#title:active #chest { background-image: url(images/chest@2x.png); }
 #vim { background-image: url(images/vim@2x.png); }
-#itermcolors { background-image: url(images/itermcolors@2x.png); }
-#terminal { background-image: url(images/terminal@2x.png); }
-#tmbundle { background-image: url(images/tmbundle@2x.png); }
-#emacs { background-image: url(images/emacs@2x.png); }
+#iterm { background-image: url(images/itermcolors.png); }
+#terminal { background-image: url(images/terminal.png); }
+#emacs { background-image: url(images/emacs@2x.png) }
 
 /* Anchors */
 
@@ -346,17 +349,17 @@ button:active {
   background: #2f8bc7;
 }
 
-/* Retina Displays */
+/* retina Displays */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  #frame { background-image: url(images/frame@2x.png); }
-  #sss { background-image: url(images/sss@2x.png); }
-  #download .arrow { background-image: url(images/arrow@2x.png); }
-  #chest { background-image: url(images/chest@2x.png); }
-  #title:hover #chest { background-image: url(images/chest_hover@2x.png); }
-  #title:active #chest { background-image: url(images/chest@2x.png); }
-  #vim { background-image: url(images/vim@2x.png); }
-  #iterm { background-image: url(images/itermcolors@2x.png); }
-  #terminal { background-image: url(images/terminal@2x.png); }
-  #emacs { background-image: url(images/emacs@2x.png) }
-}
+/* @media only screen and (-webkit-min-device-pixel-ratio: 1.5) { */
+/*   #frame { background-image: url(images/frame@2x.png); } */
+/*   #sss { background-image: url(images/sss@2x.png); } */
+/*   #download .arrow { background-image: url(images/arrow@2x.png); } */
+/*   #chest { background-image: url(images/chest@2x.png); } */
+/*   #title:hover #chest { background-image: url(images/chest_hover@2x.png); } */
+/*   #title:active #chest { background-image: url(images/chest@2x.png); } */
+/*   #vim { background-image: url(images/vim@2x.png); } */
+/*   #iterm { background-image: url(images/itermcolors@2x.png); } */
+/*   #terminal { background-image: url(images/terminal@2x.png); } */
+/*   #emacs { background-image: url(images/emacs@2x.png) } */
+/* } */
