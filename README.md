@@ -23,6 +23,7 @@ A color scheme that makes coding look as fun as it really is.
 
 * **Terminal.app**
 * **iTerm2**
+* **Terminator**
 
 ### Markdown Editors
 
