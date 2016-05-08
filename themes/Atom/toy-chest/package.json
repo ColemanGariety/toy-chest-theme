@@ -1,0 +1,11 @@
+{
+  "name": "toy-chest",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A "Flat UI"-inspired dark syntax theme that makes coding look as fun as it really is.",
+  "repository": "https://github.com/JacksonGariety/Toy-Chest-Theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
